@@ -124,7 +124,9 @@ def start():
                         score += 1
                         print(f"Your score is: {score}")
                     else:
+                        print(f"You Lost! Your score was {score}")
                         pg.quit()
+                        
                 
 
 
